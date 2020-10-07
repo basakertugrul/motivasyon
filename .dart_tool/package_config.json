@@ -14,6 +14,12 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "auto_animated",
+      "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/auto_animated-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.1",
       "packageUri": "lib/",
@@ -146,13 +152,19 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "visibility_detector",
+      "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/visibility_detector-0.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
       "name": "motivation",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-10-05T00:39:50.412660Z",
+  "generated": "2020-10-06T18:06:07.779690Z",
   "generator": "pub",
   "generatorVersion": "2.10.0"
 }

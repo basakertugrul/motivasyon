@@ -1,10 +1,11 @@
 import 'dart:async';
-
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:circular_reveal_animation/circular_reveal_animation.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:motivation/list.dart';
+import 'package:motivation/teams.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'Animated Navigation Bottom Bar'),
+      home: MyHomePage(title: 'There\'s no chance to failure '),
     );
   }
 }
@@ -35,8 +36,18 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
-  var _bottomNavIndex = 0; //default index of first screen
+  var _bottomNavIndex = 1;
+
+  //default index of first screen
 //GİRİŞ SAYFASINI BURADAN SEÇİYORUZ
+
+  final List<Widget> _children = [
+    Center(child: Text("Page: 1")),
+    LiveListExample(),
+    Center(child: Text("Page: 3")),
+    Teams(),
+  ];
+
   AnimationController _animationController;
   Animation<double> animation;
   CurvedAnimation curve;
@@ -102,13 +113,17 @@ class _MyHomePageState extends State<MyHomePage>
           Container(
               decoration: BoxDecoration(
                   gradient: LinearGradient(
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                      stops: [
+                    0.3,
+                    1.0
+                  ],
                       colors: [
                     HexColor('#B4C3CC'),
                     HexColor('#ffffff'),
                   ])),
-              child: Center(child: Text("Page" + _bottomNavIndex.toString()))),
+              child: _children[_bottomNavIndex]),
       floatingActionButton: ScaleTransition(
         scale: animation,
         child: FloatingActionButton(
