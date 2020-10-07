@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:auto_animated/auto_animated.dart';
 import 'package:motivation/main.dart';
-import 'package:motivation/outils.dart';
+import 'package:motivation/ranked/outils.dart';
 
 class LiveListExample extends StatelessWidget {
   @override

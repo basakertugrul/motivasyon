@@ -4,8 +4,9 @@ import 'package:circular_reveal_animation/circular_reveal_animation.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:motivation/list.dart';
-import 'package:motivation/teams.dart';
+import 'package:motivation/ranked/list.dart';
+import 'package:motivation/class/classes.dart';
+import 'package:motivation/profile.dart';
 
 void main() => runApp(MyApp());
 
@@ -36,7 +37,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
-  var _bottomNavIndex = 1;
+  var _bottomNavIndex = 2;
 
   //default index of first screen
 //GİRİŞ SAYFASINI BURADAN SEÇİYORUZ
@@ -44,8 +45,8 @@ class _MyHomePageState extends State<MyHomePage>
   final List<Widget> _children = [
     Center(child: Text("Page: 1")),
     LiveListExample(),
-    Center(child: Text("Page: 3")),
-    Teams(),
+    Classes(),
+    Profile(),
   ];
 
   AnimationController _animationController;
@@ -128,7 +129,7 @@ class _MyHomePageState extends State<MyHomePage>
         scale: animation,
         child: FloatingActionButton(
           elevation: 8,
-          backgroundColor: HexColor('#CCBDB4'),
+          backgroundColor: HexColor('#E0B7BA'),
           child: Text(
             sentence[i],
             style: TextStyle(

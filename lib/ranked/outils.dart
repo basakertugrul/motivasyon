@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:motivation/person.dart';
+import 'package:motivation/ranked/person.dart';
 
 //mape çevirip yükseliş alçalış ona göre icon
 

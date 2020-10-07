@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:motivation/main.dart';
 
-class Teams extends StatelessWidget {
+class Profile extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
         body: SafeArea(
