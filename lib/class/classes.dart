@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:motivation/class/class.dart';
+import 'package:motivation/class/addFunction.dart';
 import 'package:motivation/main.dart';
 import 'package:flip_card/flip_card.dart';
 
@@ -23,25 +24,30 @@ class Classes extends StatelessWidget {
       padding: const EdgeInsets.all(8),
       itemCount: names.length,
       itemBuilder: (BuildContext context, int index) {
-        return Container(
-          padding: EdgeInsets.all(16.0),
-          child: FlipCard(
+        return Column(children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Expanded(
+                flex: 7,
+                child: Card(
+                  elevation: 5,
+                  color: HexColor('#BCC9C7'),
+                  child: Text(
+                    names[index].name,
+                    style: TextStyle(fontSize: 24),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ),
+              Expanded(flex: 3, child: AddClass()),
+            ],
+          ),
+          FlipCard(
             front: Container(
               child: Center(
                   child: Column(
                 children: [
-                  Card(
-                    elevation: 5,
-                    color: HexColor('#BCC9C7'),
-                    child: SizedBox(
-                      width: double.infinity,
-                      child: Text(
-                        names[index].name,
-                        style: TextStyle(fontSize: 24),
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                  ),
                   Container(
                     margin: EdgeInsets.all(8),
                     child: ClipRRect(
@@ -78,7 +84,7 @@ class Classes extends StatelessWidget {
               ),
             ),
           ),
-        );
+        ]);
       },
     );
   }

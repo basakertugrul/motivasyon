@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(title: 'There\'s no chance to failure '),
+      home: MyHomePage(title: 'THERE\'S NO CHANCE TO FAILURE'),
       color: Colors.black,
     );
   }
