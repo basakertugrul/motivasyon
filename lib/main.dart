@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(title: 'There\'s no chance to failure '),
+      color: Colors.black,
     );
   }
 }

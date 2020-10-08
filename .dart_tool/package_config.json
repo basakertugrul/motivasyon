@@ -8,18 +8,6 @@
       "languageVersion": "2.7"
     },
     {
-      "name": "archive",
-      "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/archive-2.0.13",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
-    },
-    {
-      "name": "args",
-      "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/args-1.6.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.3"
-    },
-    {
       "name": "async",
       "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.1",
       "packageUri": "lib/",
@@ -68,18 +56,6 @@
       "languageVersion": "2.10"
     },
     {
-      "name": "convert",
-      "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "1.17"
-    },
-    {
-      "name": "crypto",
-      "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-2.1.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.3"
-    },
-    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.0",
       "packageUri": "lib/",
@@ -92,6 +68,12 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "flip_card",
+      "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/flip_card-0.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/basak/development/tools/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -102,12 +84,6 @@
       "rootUri": "file:///Users/basak/development/tools/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.2"
-    },
-    {
-      "name": "image",
-      "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/image-2.1.18",
-      "packageUri": "lib/",
-      "languageVersion": "2.0"
     },
     {
       "name": "matcher",
@@ -128,10 +104,10 @@
       "languageVersion": "2.10"
     },
     {
-      "name": "petitparser",
-      "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-3.1.0",
+      "name": "scrollable_positioned_list",
+      "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/scrollable_positioned_list-0.1.7",
       "packageUri": "lib/",
-      "languageVersion": "2.7"
+      "languageVersion": "2.3"
     },
     {
       "name": "sky_engine",
@@ -194,19 +170,13 @@
       "languageVersion": "2.3"
     },
     {
-      "name": "xml",
-      "rootUri": "file:///Users/basak/development/tools/flutter/.pub-cache/hosted/pub.dartlang.org/xml-4.5.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.7"
-    },
-    {
       "name": "motivation",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-10-07T21:57:47.932806Z",
+  "generated": "2020-10-08T00:42:58.636920Z",
   "generator": "pub",
   "generatorVersion": "2.10.0"
 }
