@@ -53,13 +53,12 @@ class Classes extends StatelessWidget {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(15.0),
                       child: Image(
-                        image: AssetImage(names[index].picture),
+                        image: AssetImage(
+                          names[index].picture,
+                        ),
                       ),
                     ),
                   ),
-                  SizedBox(
-                    height: 30,
-                  )
                 ],
               )),
             ),
